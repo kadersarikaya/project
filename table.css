@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(240, 195, 172) !important;
+}
+
+:root {
+    --primary-color: #af5f48;
+    --secondry-color: #e5ad8c;
+    --third-color: #e5ad8c;
+}
+
+ul {
+    list-style: none;
+}
+
+.bi {
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none !important;
+    color: #000;
+}
+
+table {
+    width: 100%;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    outline: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.randevu {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.table-title {
+    text-align: center;
+}
+
+table,
+td,
+th {
+    border: 2px solid #ddd;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+th,
+td {
+    padding: 15px;
+}
+.tbody tr th {
+    font-weight: 400;
+}
+.tbody tr th:hover {
+    background-color:#CCCC66;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-table {
+    text-align: center;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.btn-table a {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    margin-right: 10px;
+}
+.btn-table a:hover {
+    background-color: var(--secondry-color);
+    color: #fff;
+}
+
+.kvkk a{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.btn-randevu {
+    margin-top: 50px;
+    padding: 10px 20px;
+    background-color: #000;
+    width: 50%;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.btn-randevu a {
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.date-sec {
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    form .d-flex {
+        flex-wrap: wrap;
+    }
+    .table-title {
+        font-size: 20px;
+    }
+        th,
+        td {
+            padding: 10px;
+        }
+}
